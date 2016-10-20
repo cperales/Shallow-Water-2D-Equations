@@ -45,13 +45,13 @@ a=0.0
 b=25.0
 n=125
 h=float(b-a)/float(n)
-print 'Discretización del espacio utilizada =', h
+print('Discretización del espacio utilizada =', h)
 
 t0=0.0
 t1=40.0
 pasos=1.5*(t1-t0)
 pt=(t1-t0)/pasos
-print 'Paso de tiempo utilizado =', pt
+print('Paso de tiempo utilizado =', pt)
 
 intercelda=np.arange(a,b,h)
 
@@ -78,10 +78,8 @@ def animate(j, celdas, U0, Z, h, pt):
     while t<nextTime:
         U0,dt = lx.fnumerico(U0, Z, h, nextTime-t)
         t+=dt
-        # print t    
 
     eta = U0[0,:] + Z[:]
-##    print eta
 #    u = np.zeros(len(U0[0,:]))
 #    u = U0[1,:]/(U0[0,:]+1e-08)*(U0[0,:]>=1e-03)
 #    v = abs(u)/np.sqrt(9.81*(U0[0,:]+1e-08))*(U0[0,:]>=1e-03)

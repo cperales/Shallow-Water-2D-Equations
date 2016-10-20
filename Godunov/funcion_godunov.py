@@ -32,14 +32,14 @@ a=0
 b=20
 n=50
 h=float(b-a)/float(n)
-print 'Discretización del espacio utilizada =', h
+print('Discretización del espacio utilizada =', h)
 
 
 t0=0.0
 t1=20.0
 pasos=50
 pt=(t1-t0)/pasos
-print 'Paso de tiempo utilizado =', pt
+print('Paso de tiempo utilizado =', pt)
 
 intercelda=np.arange(a,b,h)
 
