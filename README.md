@@ -4,7 +4,7 @@ Este paquete contiene lo básico para poder simular las ecuaciones de aguas some
 
 ## Requerimientos
 
-Es necesario ejecutar
+El programa está escrito en Python 2.7. Es necesario ejecutar
 
 ```bash
 $ pip install -r requirements.txt
