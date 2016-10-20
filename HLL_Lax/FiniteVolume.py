@@ -78,7 +78,7 @@ def animate(j, celdas, U0, Z, h, pt):
     while t<nextTime:
         U0,dt = lx.fnumerico(U0, Z, h, nextTime-t)
         t+=dt
-        print t    
+        # print t    
 
     eta = U0[0,:] + Z[:]
 ##    print eta

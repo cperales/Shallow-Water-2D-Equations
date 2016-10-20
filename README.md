@@ -2,6 +2,20 @@
 
 Este paquete contiene lo básico para poder simular las ecuaciones de aguas someras (Shallow Water Equations) en dos dimensiones. Se adjuntan también algunos vídeos de distintas variables, junto con los valores que se han introducido para conseguir esas animaciones.
 
+## Requerimientos
+
+Es necesario ejecutar
+
+```bash
+$ pip install -r requirements.txt
+```
+
+Además, es necesario instalar ffmpeg
+
+```bash
+$ sudo apt install ffmpeg
+```
+
 ## Teoría
 
 Para simular estas ecuaciones se ha usado el Método de Elementos Finitos. Se han implementado los flujos de Godunov, HLL y Lax-Friedrich.
