@@ -18,7 +18,7 @@ $ sudo apt install ffmpeg
 
 ## Teoría
 
-Para simular estas ecuaciones se ha usado el Método de Elementos Finitos. Se han implementado los flujos de Godunov, HLL y Lax-Friedrich.
+Para simular estas ecuaciones se ha usado el Método de Volúmenes Finitos. Se han implementado los flujos de Godunov, HLL y Lax-Friedrich.
 
 Las ecuaciones de Shallow Water son una simplificación de las ecuaciones de Navier-Stokes. Este paquete fue desarollado para el Trabajo de Fin de Grado de Carlos Perales, Graduado en Física por la Universidad de Córdoba. Se puede acceder a documentación teórica [aquí](http://es.slideshare.net/CarlosPerales/estudio-y-simulacin-numrica-de-las-ecuaciones-de-aguas-someras)
 
