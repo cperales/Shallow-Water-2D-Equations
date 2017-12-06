@@ -26,6 +26,8 @@ Las ecuaciones de Shallow Water son una simplificación de las ecuaciones de Nav
 
 Algunos vídeos generados con este programa pueden verse en esta lista de reproducción de [Youtube](https://www.youtube.com/watch?v=ConQO-z8Ks4&list=PLkjZXk8AWCPW18dZUjr093jvvx3NUvY5l)
 
+![Captura de pantalla de uno de los vídeos](https://i.ytimg.com/vi/DGDgrd9_KaM/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBGz09iFWEDhucirj-TqgW-kYh68A=centerme)
+
 ## Licencia:
 
 http://www.gnu.org/licenses/gpl-3.0.txt
