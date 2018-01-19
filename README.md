@@ -4,7 +4,7 @@ Este paquete contiene lo básico para poder simular las ecuaciones de aguas some
 
 ## Requerimientos
 
-Compatible con Python 3.5 y Python 2.7. Es necesario ejecutar
+Compatible con Python 3.5 y Python 2.7. Es necesario ejecutar (se recomienda dentro de un entorno virtual):
 
 ```bash
 $ pip install -r requirements.txt
@@ -15,6 +15,8 @@ Además, es necesario instalar ffmpeg
 ```bash
 $ sudo apt install ffmpeg
 ```
+
+Para correr las simulaciones, basta con entrar en las carpetas y ejecutar el fichero llamado `simulacion`. En la misma carpeta se guardará un fichero `.mp4`.
 
 ## Teoría
 
@@ -30,4 +32,4 @@ Algunos vídeos generados con este programa pueden verse en esta lista de reprod
 
 ## Licencia:
 
-http://www.gnu.org/licenses/gpl-3.0.txt
+Este proyecto está bajo licencia [GPL-3.0](http://www.gnu.org/licenses/gpl-3.0.txt)

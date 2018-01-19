@@ -4,6 +4,9 @@ Created on Sun Dec 28 11:58:24 2014
 
 @author: carlos
 """
+import warnings
+warnings.filterwarnings("ignore")
+
 # FiniteVolume4
 import matplotlib.pyplot as plt
 import numpy as np
